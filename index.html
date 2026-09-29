@@ -4,170 +4,113 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Banaras Heritage Guide</title>
-
 <style>
-*{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-}
-
-body{
-  font-family:Arial,sans-serif;
-  background:#fff8ed;
-  color:#33251c;
-  line-height:1.6;
-}
-
-header{
-  background:linear-gradient(135deg,#7b1e1e,#d97706);
-  color:white;
-  text-align:center;
-  padding:35px 20px;
-}
-
-header h1{
-  font-size:32px;
-  margin-bottom:8px;
-}
-
-header p{
-  font-size:17px;
-}
-
-nav{
-  background:#4a1717;
-  text-align:center;
-  padding:12px;
-  position:sticky;
-  top:0;
-  z-index:10;
-}
-
-nav a{
-  color:white;
-  text-decoration:none;
-  margin:0 8px;
-  font-size:14px;
-}
-
-.hero{
-  text-align:center;
-  padding:45px 20px;
-  background:#fff0d5;
-}
-
-.hero h2{
-  font-size:30px;
-  color:#7b1e1e;
-  margin-bottom:10px;
-}
-
-.hero p{
-  font-size:17px;
-}
-
-.button{
-  display:inline-block;
-  background:#25D366;
-  color:white;
-  padding:13px 22px;
-  margin-top:20px;
-  border-radius:8px;
-  text-decoration:none;
-  font-weight:bold;
-}
-
-section{
-  padding:35px 18px;
-  max-width:1100px;
-  margin:auto;
-}
-
-section h2{
-  text-align:center;
-  color:#7b1e1e;
-  margin-bottom:25px;
-  font-size:27px;
-}
-
-.cards{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:18px;
-}
-
-.card{
-  background:white;
-  padding:22px;
-  border-radius:12px;
-  box-shadow:0 3px 12px rgba(0,0,0,.12);
-}
-
-.card h3{
-  color:#b45309;
-  margin-bottom:8px;
-}
-
-.booking{
-  background:#fff0d5;
-  border-radius:15px;
-  padding:25px;
-}
-
-form{
-  max-width:600px;
-  margin:auto;
-}
-
-input,select,textarea{
-  width:100%;
-  padding:13px;
-  margin:8px 0 14px;
-  border:1px solid #ccc;
-  border-radius:7px;
-  font-size:16px;
-}
-
-label{
-  font-weight:bold;
-}
-
-.submit{
-  width:100%;
-  border:0;
-  background:#25D366;
-  color:white;
-  padding:15px;
-  border-radius:8px;
-  font-size:17px;
-  font-weight:bold;
-  cursor:pointer;
-}
-
-.info{
-  text-align:center;
-  margin-top:20px;
-  font-size:18px;
-}
-
-footer{
-  background:#4a1717;
-  color:white;
-  text-align:center;
-  padding:25px 15px;
-  margin-top:20px;
-}
-
-@media(max-width:600px){
-  header h1{font-size:27px;}
-  .hero h2{font-size:25px;}
-}
+body{margin:0;font-family:Arial;background:#fff8ed;color:#33251c}
+header{background:#8b2c1c;color:white;text-align:center;padding:35px 15px}
+h1{margin:0 0 8px}
+.hero{text-align:center;padding:35px 15px;background:#ffe8c2}
+section{padding:25px 15px;max-width:900px;margin:auto}
+h2{text-align:center;color:#8b2c1c}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px}
+.card{background:white;padding:18px;border-radius:10px;box-shadow:0 2px 8px #ccc}
+.booking{background:#fff0d5;padding:20px;border-radius:12px}
+input,select,textarea{width:100%;padding:12px;margin:7px 0 15px;box-sizing:border-box;border:1px solid #ccc;border-radius:6px}
+button,.whatsapp{display:block;width:100%;background:#25D366;color:white;padding:14px;border:0;border-radius:7px;font-size:16px;text-align:center;text-decoration:none;font-weight:bold}
+footer{background:#4a1717;color:white;text-align:center;padding:20px}
 </style>
 </head>
 
 <body>
 
 <header>
-  <h1>🕉️ Banaras Heritage Guide</h1>
-  <p>काशी को करीब से
+<h1>🕉️ Banaras Heritage Guide</h1>
+<p>काशी को करीब से जानिए, स्थानीय Guide के साथ</p>
+</header>
+
+<div class="hero">
+<h2>हर हर महादेव 🙏</h2>
+<p>Banaras के मंदिर, घाट, गंगा आरती, संस्कृति और प्रसिद्ध स्थान घूमिए।</p>
+<a class="whatsapp" href="https://wa.me/919691951317">📲 WhatsApp पर संपर्क करें</a>
+</div>
+
+<section>
+<h2>📍 Banaras में घूमने के स्थान</h2>
+<div class="cards">
+<div class="card"><h3>🛕 काशी विश्वनाथ</h3><p>बाबा विश्वनाथ धाम और आसपास के प्रमुख स्थान।</p></div>
+<div class="card"><h3>🌊 गंगा घाट</h3><p>दशाश्वमेध, अस्सी और अन्य प्रसिद्ध घाट।</p></div>
+<div class="card"><h3>🔥 गंगा आरती</h3><p>प्रसिद्ध गंगा आरती की जानकारी और guidance।</p></div>
+<div class="card"><h3>🚣 Boat Ride</h3><p>गंगा से Banaras के घाटों का सुंदर अनुभव।</p></div>
+<div class="card"><h3>🛕 संकट मोचन</h3><p>प्रसिद्ध हनुमान मंदिर और आसपास के स्थान।</p></div>
+<div class="card"><h3>🏛️ सारनाथ</h3><p>सारनाथ के ऐतिहासिक और धार्मिक स्थान।</p></div>
+<div class="card"><h3>🍛 Banarasi Food</h3><p>कचौड़ी, लस्सी, बनारसी पान और स्थानीय स्वाद।</p></div>
+<div class="card"><h3>📸 Photography</h3><p>Banaras के शानदार photography spots।</p></div>
+</div>
+</section>
+
+<section>
+<h2>🙌 मेरी Guide Services</h2>
+<div class="cards">
+<div class="card"><h3>🗓️ Full Day Guide</h3><p>पूरे दिन Banaras घूमने की local guidance।</p></div>
+<div class="card"><h3>🌅 Morning Tour</h3><p>सुबह के घाट और मंदिरों का अनुभव।</p></div>
+<div class="card"><h3>🌆 Evening Tour</h3><p>घाट और गंगा आरती का अनुभव।</p></div>
+<div class="card"><h3>👨‍👩‍👧 Family Tour</h3><p>परिवार और groups के लिए guide service।</p></div>
+</div>
+</section>
+
+<section>
+<h2>📅 Guide Booking</h2>
+<div class="booking">
+
+<label>आपका नाम</label>
+<input id="name" placeholder="अपना नाम">
+
+<label>घूमने की तारीख</label>
+<input id="date" type="date">
+
+<label>कितने लोग हैं?</label>
+<input id="people" type="number" placeholder="जैसे 4">
+
+<label>Guide Service</label>
+<select id="service">
+<option>Full Day Guide</option>
+<option>Morning Tour</option>
+<option>Evening Tour</option>
+<option>Family Tour</option>
+<option>Temple & Ghat Tour</option>
+<option>Sarnath Tour</option>
+</select>
+
+<label>आपका संदेश</label>
+<textarea id="msg" rows="4" placeholder="कहाँ घूमना चाहते हैं?"></textarea>
+
+<button onclick="book()">📲 WhatsApp पर Booking भेजें</button>
+
+<p><b>💰 Guide Fee:</b> फीस की जानकारी WhatsApp पर प्राप्त करें।</p>
+</div>
+</section>
+
+<section>
+<h2>📞 Contact</h2>
+<a class="whatsapp" href="https://wa.me/919691951317">WhatsApp: 9691951317</a>
+</section>
+
+<footer>
+<p>🕉️ Banaras Heritage Guide</p>
+<p>Explore Banaras • Experience Kashi</p>
+<p>© 2026</p>
+</footer>
+
+<script>
+function book(){
+var n=document.getElementById("name").value;
+var d=document.getElementById("date").value;
+var p=document.getElementById("people").value;
+var s=document.getElementById("service").value;
+var m=document.getElementById("msg").value;
+var t="Banaras Guide Booking%0A%0Aनाम: "+n+"%0Aतारीख: "+d+"%0Aलोग: "+p+"%0AService: "+s+"%0Aसंदेश: "+m;
+window.open("https://wa.me/919691951317?text="+t,"_blank");
+}
+</script>
+
+</body>
+</html>
